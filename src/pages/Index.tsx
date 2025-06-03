@@ -5,7 +5,6 @@ import WhyInvest from '@/components/WhyInvest';
 import ROISection from '@/components/ROISection';
 import InvestmentCalculator from '@/components/InvestmentCalculator';
 import Connectivity from '@/components/Connectivity';
-import InteractivePlotMap from '@/components/InteractivePlotMap';
 import Infrastructure from '@/components/Infrastructure';
 import CountdownTimer from '@/components/CountdownTimer';
 import LimitedPlots from '@/components/LimitedPlots';
@@ -24,7 +23,6 @@ const Index = () => {
       <ROISection />
       <InvestmentCalculator />
       <Connectivity />
-      <InteractivePlotMap />
       <Infrastructure />
       <CountdownTimer />
       <LimitedPlots />

@@ -1,26 +1,1374 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vanasthali-hills-invest</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanasthali Hills - Premium Land Investment</title>
+    <meta name="description" content="Invest in Vanasthali Hills - Premium plots surrounded by nature with exceptional ROI. Located just 10 minutes from Nagole, Hyderabad." />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: .5;
+            }
+        }
+        
+        .animate-bounce {
+            animation: bounce 1s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(-25%);
+                animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            }
+            50% {
+                transform: translateY(0);
+                animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+        
+        .animate-fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #10b981, #059669);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .shadow-xl {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .shadow-2xl {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-green-50 to-white">
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')"></div>
+        
+        <div class="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+            <div class="mb-6">
+                <span class="inline-flex items-center px-4 py-2 bg-green-600/80 rounded-full text-sm font-medium mb-4">
+                    <i data-lucide="map-pin" class="w-4 h-4 mr-2"></i>
+                    Just 10 Minutes from Nagole, Hyderabad
+                </span>
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                Invest Where
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">
+                    Nature Meets High Returns
+                </span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl mb-4 opacity-90 max-w-4xl mx-auto">
+                Plots in Vanasthali Hills – Surrounded by Lake, Forest & Hills
+            </p>
+            
+            <p class="text-lg md:text-xl mb-8 font-semibold text-yellow-300">
+                From ₹1,500 to ₹35,000/sq.yd in 10 Years – 25% Annual ROI
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots" target="_blank" rel="noopener noreferrer">
+                    <button class="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover-scale transition-all duration-300">
+                        💬 Contact on WhatsApp
+                    </button>
+                </a>
+            </div>
+            
+            <div class="mt-16 animate-bounce">
+                <i data-lucide="arrow-down" class="w-8 h-8 mx-auto text-white/70"></i>
+            </div>
+        </div>
+    </section>
 
-    <meta property="og:title" content="vanasthali-hills-invest" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Why Invest Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Why Vanasthali Hills is the 
+                    <span class="text-green-600"> Best Investment</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Prime location surrounded by nature with exceptional growth potential
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Forest on 3 sides, lake view plots</p>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Upcoming gated villas & apartments</p>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Excellent appreciation potential</p>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Located on 120-ft road, 10 mins from Nagole</p>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Fully legal, clear title, spot registration</p>
+                </div>
+                
+                <div class="flex items-start space-x-4 p-6 bg-gradient-to-br from-green-50 to-white rounded-xl border border-green-100 hover:shadow-lg transition-all duration-300 hover-scale">
+                    <div class="flex-shrink-0">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="check" class="w-5 h-5 text-white"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium text-lg">Fastest-growing zone in East Hyderabad</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <!-- ROI Section -->
+    <section class="py-16 bg-gradient-to-br from-green-900 via-green-800 to-green-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Your Land, Your <span class="text-yellow-400">Wealth</span>
+                </h2>
+                <p class="text-xl opacity-90 max-w-3xl mx-auto">
+                    See how Vanasthali Hills has transformed investments into wealth
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="glass-effect p-6 text-center rounded-lg hover:bg-white/20 transition-all duration-300">
+                    <div class="text-3xl font-bold text-yellow-400 mb-2" id="old-price">₹1,500</div>
+                    <div class="text-sm opacity-90">Price 10 Years Ago</div>
+                    <div class="text-xs opacity-70">per sq.yd</div>
+                </div>
+                
+                <div class="glass-effect p-6 text-center rounded-lg hover:bg-white/20 transition-all duration-300">
+                    <div class="text-3xl font-bold text-green-400 mb-2" id="current-price">₹35,000</div>
+                    <div class="text-sm opacity-90">Current Price</div>
+                    <div class="text-xs opacity-70">per sq.yd</div>
+                </div>
+                
+                <div class="glass-effect p-6 text-center rounded-lg hover:bg-white/20 transition-all duration-300">
+                    <div class="text-3xl font-bold text-yellow-400 mb-2" id="roi">25%</div>
+                    <div class="text-sm opacity-90">Annual ROI</div>
+                    <div class="text-xs opacity-70">Consistent Growth</div>
+                </div>
+                
+                <div class="glass-effect p-6 text-center rounded-lg hover:bg-white/20 transition-all duration-300">
+                    <div class="text-3xl font-bold text-green-400 mb-2" id="future-price">₹50,000+</div>
+                    <div class="text-sm opacity-90">Expected in 5 Years</div>
+                    <div class="text-xs opacity-70">per sq.yd</div>
+                </div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-effect p-8 rounded-lg">
+                    <blockquote class="text-center">
+                        <div class="text-6xl text-yellow-400 mb-4">"</div>
+                        <p class="text-xl md:text-2xl font-medium mb-6 italic">
+                            Bought 300 sq.yd for ₹4.5 Lakhs in 2014. Now worth ₹1 Cr+. Best decision of my life.
+                        </p>
+                        <footer class="text-lg opacity-90">
+                            — Rajesh Kumar, Satisfied Investor
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Investment Calculator -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center bg-blue-100 px-4 py-2 rounded-full mb-6">
+                    <i data-lucide="calculator" class="w-5 h-5 text-blue-600 mr-2"></i>
+                    <span class="text-blue-700 font-semibold">Investment Calculator</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Calculate Your 
+                    <span class="text-blue-600"> Future Wealth</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    See how your investment in Vanasthali Hills can grow with our proven 25% annual ROI
+                </p>
+            </div>
+
+            <div class="max-w-6xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Calculator Inputs -->
+                    <div class="bg-white shadow-xl rounded-lg p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Investment Details</h3>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">
+                                    Investment Amount (₹)
+                                </label>
+                                <input type="number" id="investment-amount" value="500000" min="100000" step="50000" class="w-full text-lg border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <div class="flex gap-2 mt-2">
+                                    <button onclick="setInvestment(500000)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">₹5L</button>
+                                    <button onclick="setInvestment(1000000)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">₹10L</button>
+                                    <button onclick="setInvestment(2000000)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">₹20L</button>
+                                    <button onclick="setInvestment(5000000)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">₹50L</button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">
+                                    Investment Period (Years)
+                                </label>
+                                <input type="number" id="investment-years" value="5" min="1" max="15" class="w-full text-lg border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <div class="flex gap-2 mt-2">
+                                    <button onclick="setYears(3)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">3 Years</button>
+                                    <button onclick="setYears(5)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">5 Years</button>
+                                    <button onclick="setYears(7)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">7 Years</button>
+                                    <button onclick="setYears(10)" class="text-xs px-3 py-1 border border-gray-300 rounded hover:bg-gray-50">10 Years</button>
+                                </div>
+                            </div>
+
+                            <div class="bg-blue-50 rounded-lg p-4">
+                                <p class="text-blue-800 text-sm font-medium">
+                                    📈 Based on historical 25% annual ROI from Vanasthali Hills
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="bg-gradient-to-br from-green-500 to-blue-600 text-white shadow-xl rounded-lg p-8">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center">
+                            <i data-lucide="trending-up" class="w-6 h-6 mr-2"></i>
+                            Projected Returns
+                        </h3>
+                        
+                        <div class="space-y-6">
+                            <div class="bg-white/10 rounded-lg p-4">
+                                <div class="text-sm opacity-90 mb-1">Initial Investment</div>
+                                <div class="text-2xl font-bold" id="initial-investment">₹5,00,000</div>
+                            </div>
+
+                            <div class="bg-white/10 rounded-lg p-4">
+                                <div class="text-sm opacity-90 mb-1">Future Value (<span id="years-display">5</span> years)</div>
+                                <div class="text-3xl font-bold text-yellow-300" id="future-value">₹15,25,879</div>
+                            </div>
+
+                            <div class="bg-white/10 rounded-lg p-4">
+                                <div class="text-sm opacity-90 mb-1">Total Returns</div>
+                                <div class="text-2xl font-bold text-green-300" id="total-returns">+₹10,25,879</div>
+                            </div>
+
+                            <div class="bg-white/10 rounded-lg p-4">
+                                <div class="text-sm opacity-90 mb-1">ROI Percentage</div>
+                                <div class="text-2xl font-bold text-yellow-300" id="roi-percentage">205%</div>
+                            </div>
+
+                            <button class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 rounded-lg">
+                                💰 Start This Investment Journey
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connectivity Section -->
+    <section class="py-20 bg-gradient-to-br from-green-50 via-white to-emerald-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center bg-green-100 px-4 py-2 rounded-full mb-6">
+                    <i data-lucide="map-pin" class="w-5 h-5 text-green-600 mr-2"></i>
+                    <span class="text-green-700 font-semibold">Prime Location</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Strategic Location,
+                    <span class="gradient-text"> Endless Possibilities</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Perfectly positioned with world-class connectivity to transform your investment into extraordinary returns
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-start">
+                <!-- Connectivity Cards -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-8 flex items-center">
+                        <i data-lucide="route" class="w-6 h-6 text-green-600 mr-3"></i>
+                        Connectivity Highlights
+                    </h3>
+                    
+                    <div class="bg-white/80 p-6 rounded-lg shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
+                                    <i data-lucide="map-pin" class="w-7 h-7 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xl text-gray-900">Nagole</h4>
+                                    <p class="text-gray-600">5 km</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                                    10 min
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/80 p-6 rounded-lg shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
+                                    <i data-lucide="route" class="w-7 h-7 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xl text-gray-900">Uppal Metro</h4>
+                                    <p class="text-gray-600">8 km</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                                    15 min
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/80 p-6 rounded-lg shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
+                                    <i data-lucide="route" class="w-7 h-7 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xl text-gray-900">ORR @ Gowrelly</h4>
+                                    <p class="text-gray-600">12 km</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                                    15 min
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/80 p-6 rounded-lg shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
+                                    <i data-lucide="route" class="w-7 h-7 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xl text-gray-900">Warangal Highway</h4>
+                                    <p class="text-gray-600">15 km</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                                    20 min
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white/80 p-6 rounded-lg shadow-lg border-0 hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
+                                    <i data-lucide="clock" class="w-7 h-7 text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-xl text-gray-900">RGIA Airport</h4>
+                                    <p class="text-gray-600">35 km</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                                    45 min
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Map -->
+                <div class="lg:sticky lg:top-8">
+                    <div class="bg-white rounded-3xl p-6 shadow-2xl border border-gray-100">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-2xl font-bold text-gray-900">Location Map</h3>
+                            <div class="flex items-center text-green-600 bg-green-50 px-3 py-1 rounded-full">
+                                <i data-lucide="map-pin" class="w-4 h-4 mr-1"></i>
+                                <span class="text-sm font-medium">Live Location</span>
+                            </div>
+                        </div>
+                        
+                        <div class="relative rounded-2xl overflow-hidden shadow-lg">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.4284985485825!2d78.5707!3d17.3238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0x88021c52e6e112be!2sVanasthali%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1643789012345!5m2!1sen!2sin"
+                                width="100%"
+                                height="400"
+                                style="border: 0;"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="w-full h-96"
+                                title="Vanasthali Hills Location">
+                            </iframe>
+                            <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/5 to-transparent"></div>
+                        </div>
+                        
+                        <div class="mt-6 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-100">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                                <p class="text-green-800 font-medium">
+                                    📍 Vanasthali Hills, Near Nagole, Hyderabad
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infrastructure Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Nearby Infrastructure & 
+                    <span class="text-green-600"> Facilities</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Everything you need for modern living is just minutes away
+                </p>
+            </div>
+            
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                    <button onclick="showTab('hospitals')" id="tab-hospitals" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-green-600 text-white shadow-lg">
+                        🏥 Hospitals
+                    </button>
+                    <button onclick="showTab('schools')" id="tab-schools" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                        🎓 Schools
+                    </button>
+                    <button onclick="showTab('shopping')" id="tab-shopping" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                        🛒 Shopping
+                    </button>
+                    <button onclick="showTab('transport')" id="tab-transport" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                        🚇 Transport
+                    </button>
+                    <button onclick="showTab('entertainment')" id="tab-entertainment" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                        🎢 Entertainment
+                    </button>
+                    <button onclick="showTab('banking')" id="tab-banking" class="px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200">
+                        🏦 Banking
+                    </button>
+                </div>
+                
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <div id="infrastructure-content" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Content will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="py-12 bg-gradient-to-r from-red-500 via-pink-500 to-purple-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="glass-effect shadow-2xl rounded-lg p-8 text-center">
+                <div class="flex items-center justify-center mb-6">
+                    <i data-lucide="zap" class="w-8 h-8 text-yellow-400 mr-3 animate-pulse"></i>
+                    <h2 class="text-2xl md:text-3xl font-bold">
+                        Limited Time Offer Ends Soon!
+                    </h2>
+                </div>
+
+                <p class="text-xl mb-8 opacity-90">
+                    Lock in current prices before the next price revision
+                </p>
+
+                <div class="grid grid-cols-4 gap-4 max-w-md mx-auto mb-8" id="countdown">
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-3xl font-bold" id="days">07</div>
+                        <div class="text-sm opacity-80">Days</div>
+                    </div>
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-3xl font-bold" id="hours">00</div>
+                        <div class="text-sm opacity-80">Hours</div>
+                    </div>
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-3xl font-bold" id="minutes">00</div>
+                        <div class="text-sm opacity-80">Minutes</div>
+                    </div>
+                    <div class="bg-white/20 rounded-lg p-4">
+                        <div class="text-3xl font-bold animate-pulse" id="seconds">00</div>
+                        <div class="text-sm opacity-80">Seconds</div>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <a href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots" target="_blank" rel="noopener noreferrer">
+                        <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-4 text-lg rounded-full shadow-2xl hover-scale transition-all duration-300">
+                            <i data-lucide="clock" class="w-5 h-5 mr-2 inline"></i>
+                            Contact Now
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Plots Section -->
+    <section class="py-16 bg-gradient-to-br from-yellow-50 to-orange-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Limited Plots. 
+                    <span class="text-yellow-600"> Unlimited Returns.</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Secure your investment today with limited inventory remaining
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white shadow-xl border-2 border-yellow-200 mb-8 rounded-lg p-8 text-center">
+                    <div class="mb-6">
+                        <div class="text-6xl font-bold text-yellow-600 mb-2" id="plots-left">47</div>
+                        <div class="text-xl text-gray-700 font-medium">Premium Plots Available</div>
+                        <div class="text-sm text-gray-500">Ongoing registrations in progress</div>
+                    </div>
+                    
+                    <a href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots" target="_blank" rel="noopener noreferrer">
+                        <button class="bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white px-12 py-4 text-xl font-bold rounded-full shadow-2xl hover-scale transition-all duration-300">
+                            💼 Reserve Your Plot Now
+                        </button>
+                    </a>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            ✓
+                        </div>
+                        <p class="text-gray-800 font-medium text-lg">100% legal plots with clear title</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            ✓
+                        </div>
+                        <p class="text-gray-800 font-medium text-lg">Investor-friendly payment plans</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            ✓
+                        </div>
+                        <p class="text-gray-800 font-medium text-lg">Custom villa construction support</p>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-md">
+                        <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                            ✓
+                        </div>
+                        <p class="text-gray-800 font-medium text-lg">Spot registration facility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials Section -->
+    <section class="py-16 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center bg-purple-100 px-4 py-2 rounded-full mb-6">
+                    <i data-lucide="star" class="w-5 h-5 text-purple-600 mr-2"></i>
+                    <span class="text-purple-700 font-semibold">Success Stories</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Real Investors, 
+                    <span class="text-purple-600"> Real Success Stories</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    See how Vanasthali Hills transformed their financial future
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden rounded-lg hover-scale">
+                    <div class="p-6">
+                        <div class="flex items-center space-x-1 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                        </div>
+
+                        <blockquote class="text-gray-700 italic mb-4 text-lg">
+                            "Best investment decision of my life. The returns exceeded all expectations."
+                        </blockquote>
+
+                        <div class="space-y-2">
+                            <div class="font-bold text-gray-900 text-lg">Rajesh Kumar</div>
+                            <div class="text-sm text-gray-600">Software Engineer</div>
+                            
+                            <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                                <div>
+                                    <div class="text-xs text-gray-500">Investment Growth</div>
+                                    <div class="font-bold text-green-600 flex items-center">
+                                        <i data-lucide="trending-up" class="w-3 h-3 mr-1"></i>
+                                        ₹4.5L → ₹1.2Cr
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-500">Period</div>
+                                    <div class="font-semibold">2014-2024</div>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center pt-2">
+                                <div class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold inline-block">
+                                    +2400% ROI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden rounded-lg hover-scale">
+                    <div class="p-6">
+                        <div class="flex items-center space-x-1 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                        </div>
+
+                        <blockquote class="text-gray-700 italic mb-4 text-lg">
+                            "The location is perfect and the team is very professional. Highly recommended!"
+                        </blockquote>
+
+                        <div class="space-y-2">
+                            <div class="font-bold text-gray-900 text-lg">Priya Sharma</div>
+                            <div class="text-sm text-gray-600">Doctor</div>
+                            
+                            <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                                <div>
+                                    <div class="text-xs text-gray-500">Investment Growth</div>
+                                    <div class="font-bold text-green-600 flex items-center">
+                                        <i data-lucide="trending-up" class="w-3 h-3 mr-1"></i>
+                                        ₹8L → ₹45L
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-500">Period</div>
+                                    <div class="font-semibold">2016-2024</div>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center pt-2">
+                                <div class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold inline-block">
+                                    +560% ROI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden rounded-lg hover-scale">
+                    <div class="p-6">
+                        <div class="flex items-center space-x-1 mb-3">
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+                        </div>
+
+                        <blockquote class="text-gray-700 italic mb-4 text-lg">
+                            "Clear documentation, legal transparency, and excellent appreciation potential."
+                        </blockquote>
+
+                        <div class="space-y-2">
+                            <div class="font-bold text-gray-900 text-lg">Vikram Reddy</div>
+                            <div class="text-sm text-gray-600">Business Owner</div>
+                            
+                            <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                                <div>
+                                    <div class="text-xs text-gray-500">Investment Growth</div>
+                                    <div class="font-bold text-green-600 flex items-center">
+                                        <i data-lucide="trending-up" class="w-3 h-3 mr-1"></i>
+                                        ₹12L → ₹28L
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <div class="text-xs text-gray-500">Period</div>
+                                    <div class="font-semibold">2018-2024</div>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center pt-2">
+                                <div class="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold inline-block">
+                                    +233% ROI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel -->
+    <section class="py-16 bg-green-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Success Stories & 
+                    <span class="text-green-600"> Real Returns</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Hear from investors who transformed their wealth with Vanasthali Hills
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white shadow-xl rounded-lg p-8">
+                    <div class="text-center" id="testimonial-content">
+                        <!-- Testimonial content will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Capture Form -->
+    <section class="py-16 bg-gradient-to-br from-green-800 to-green-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Start Your Land 
+                    <span class="text-yellow-400"> Investment Journey</span>
+                </h2>
+                <p class="text-xl opacity-90">
+                    Get personalized investment advice and site visit booking
+                </p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto">
+                <div class="glass-effect rounded-lg p-8">
+                    <form id="lead-form" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Full Name</label>
+                                <input type="text" id="full-name" placeholder="Enter your full name" required class="w-full bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Phone Number</label>
+                                <input type="tel" id="phone-number" placeholder="+91 98765 43210" required class="w-full bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" placeholder="your.email@example.com" required class="w-full bg-white/20 border border-white/30 text-white placeholder-white/70 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Preferred Visit Date</label>
+                            <input type="date" id="visit-date" class="w-full bg-white/20 border border-white/30 text-white rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                        </div>
+                        
+                        <button type="submit" id="submit-btn" class="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white py-4 text-lg font-bold rounded-full shadow-2xl hover-scale transition-all duration-300">
+                            📞 Send Details via WhatsApp
+                        </button>
+                        
+                        <p class="text-sm text-center opacity-90">
+                            By submitting, your details will be sent to our WhatsApp: +91 8074915275
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Trust & 
+                    <span class="text-green-600"> Legal Assurance</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Complete transparency and legal clarity for your peace of mind
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="text-center hover:shadow-lg transition-all duration-300 hover-scale bg-white rounded-lg p-6">
+                    <div class="text-4xl mb-4">✅</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">RERA Approved</h3>
+                    <p class="text-gray-600">Government registered project</p>
+                </div>
+                
+                <div class="text-center hover:shadow-lg transition-all duration-300 hover-scale bg-white rounded-lg p-6">
+                    <div class="text-4xl mb-4">📋</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Clear Title</h3>
+                    <p class="text-gray-600">No legal complications</p>
+                </div>
+                
+                <div class="text-center hover:shadow-lg transition-all duration-300 hover-scale bg-white rounded-lg p-6">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Spot Registration</h3>
+                    <p class="text-gray-600">Immediate ownership transfer</p>
+                </div>
+                
+                <div class="text-center hover:shadow-lg transition-all duration-300 hover-scale bg-white rounded-lg p-6">
+                    <div class="text-4xl mb-4">🏗️</div>
+                    <h3 class="font-bold text-lg text-gray-900 mb-2">Development Permissions</h3>
+                    <p class="text-gray-600">All approvals in place</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Buttons -->
+    <div id="floating-buttons" class="fixed bottom-6 right-6 z-50 flex-col gap-3 hidden">
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots" target="_blank" rel="noopener noreferrer" class="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg hover-scale transition-all duration-300 animate-pulse mb-3">
+            <span class="text-white text-xl">💬</span>
+        </a>
+        
+        <!-- Phone Button -->
+        <a href="tel:+918074915275" class="w-14 h-14 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center shadow-lg hover-scale transition-all duration-300">
+            <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+        </a>
+    </div>
+
+    <!-- Live Activity Feed -->
+    <div class="fixed bottom-6 left-6 z-40 max-w-sm">
+        <div class="bg-white/95 backdrop-blur-sm shadow-xl border border-gray-200 rounded-lg p-4">
+            <div class="flex items-center justify-between mb-3">
+                <div class="flex items-center space-x-2">
+                    <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                    <span class="text-sm font-semibold text-gray-800">Live Activity</span>
+                </div>
+                <div class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full" id="visitor-count">
+                    147 viewing
+                </div>
+            </div>
+
+            <div class="space-y-2" id="activity-feed">
+                <!-- Activity items will be populated by JavaScript -->
+            </div>
+
+            <div class="mt-3 pt-3 border-t border-gray-200">
+                <p class="text-xs text-gray-600 text-center">
+                    🔥 High investor interest in this area
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed top-4 right-4 z-50 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg transform translate-x-full transition-transform duration-300">
+        <div class="flex items-center space-x-2">
+            <i data-lucide="check-circle" class="w-5 h-5"></i>
+            <span id="toast-message">Message sent successfully!</span>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Investment Calculator
+        function setInvestment(amount) {
+            document.getElementById('investment-amount').value = amount;
+            calculateReturns();
+        }
+
+        function setYears(years) {
+            document.getElementById('investment-years').value = years;
+            calculateReturns();
+        }
+
+        function calculateReturns() {
+            const investment = parseInt(document.getElementById('investment-amount').value) || 500000;
+            const years = parseInt(document.getElementById('investment-years').value) || 5;
+            const annualGrowthRate = 0.25; // 25% annual ROI
+            
+            const futureValue = investment * Math.pow(1 + annualGrowthRate, years);
+            const totalReturns = futureValue - investment;
+            const roiPercentage = ((futureValue - investment) / investment) * 100;
+
+            document.getElementById('initial-investment').textContent = '₹' + investment.toLocaleString();
+            document.getElementById('future-value').textContent = '₹' + Math.round(futureValue).toLocaleString();
+            document.getElementById('total-returns').textContent = '+₹' + Math.round(totalReturns).toLocaleString();
+            document.getElementById('roi-percentage').textContent = Math.round(roiPercentage) + '%';
+            document.getElementById('years-display').textContent = years;
+        }
+
+        // Infrastructure tabs
+        const infrastructureData = {
+            hospitals: [
+                "Kamineni Hospital - 12 min",
+                "Sai Bhavani Hospital - 15 min",
+                "Sanjeevani Hospital - 18 min",
+                "ESIC Super Speciality Hospital - 20 min",
+                "Maxcure Hospitals - 22 min",
+                "Continental Hospitals - 25 min",
+                "Apollo Hospitals - 28 min",
+                "NIMS Hospital - 30 min",
+                "Yashoda Hospitals - 32 min",
+                "Rainbow Hospitals - 35 min"
+            ],
+            schools: [
+                "Johnson Grammar School - 10 min",
+                "Oakridge International - 15 min",
+                "Bhashyam Public School - 12 min",
+                "Delhi Public School - 18 min",
+                "Siva Sivani Public School - 20 min",
+                "Chirec International School - 22 min",
+                "Narayana Schools - 14 min",
+                "Sancta Maria International School - 25 min",
+                "Meridian School - 20 min",
+                "Montessori House of Children - 16 min"
+            ],
+            shopping: [
+                "Swagath Grand Mall - 15 min",
+                "BVK Multiplex - 18 min",
+                "Uppal Shopping Complex - 20 min",
+                "Galleria Mall - 25 min",
+                "Forum Sujana Mall - 30 min",
+                "Raghavendra Shopping Mall - 12 min",
+                "Central Mall - 22 min",
+                "Big Bazaar Uppal - 18 min",
+                "Reliance Digital - 16 min",
+                "Spencer's Hyper - 20 min"
+            ],
+            transport: [
+                "Nagole Metro Station - 10 min",
+                "Uppal Metro Station - 15 min",
+                "LB Nagar Bus Station - 20 min",
+                "Secunderabad Railway Station - 45 min",
+                "Hyderabad Airport - 45 min",
+                "Outer Ring Road - 15 min",
+                "Kamineni Hospital Metro - 12 min",
+                "Stadium Metro Station - 18 min",
+                "MGBS Bus Terminal - 40 min",
+                "Warangal Highway Access - 20 min"
+            ],
+            entertainment: [
+                "Ramoji Film City - 35 min",
+                "Wonderla Amusement Park - 40 min",
+                "Ocean Park Water World - 25 min",
+                "PVR Cinemas Uppal - 20 min",
+                "Inox Movies - 22 min",
+                "Snow World - 35 min",
+                "Hyderabad Golf Club - 30 min",
+                "Hussain Sagar Lake - 35 min",
+                "Lumbini Park - 40 min",
+                "Nehru Zoological Park - 30 min"
+            ],
+            banking: [
+                "SBI Branch Nagole - 12 min",
+                "HDFC Bank - 10 min",
+                "ICICI Bank - 15 min",
+                "Axis Bank - 18 min",
+                "Canara Bank - 14 min",
+                "Indian Bank - 16 min",
+                "Union Bank - 18 min",
+                "Bank of Baroda - 20 min",
+                "Punjab National Bank - 22 min",
+                "Kotak Mahindra Bank - 15 min"
+            ]
+        };
+
+        function showTab(category) {
+            // Update tab buttons
+            document.querySelectorAll('[id^="tab-"]').forEach(btn => {
+                btn.className = 'px-6 py-3 rounded-full font-medium transition-all duration-300 bg-gray-100 text-gray-700 hover:bg-gray-200';
+            });
+            document.getElementById('tab-' + category).className = 'px-6 py-3 rounded-full font-medium transition-all duration-300 bg-green-600 text-white shadow-lg';
+
+            // Update content
+            const content = document.getElementById('infrastructure-content');
+            content.innerHTML = '';
+            
+            infrastructureData[category].forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center space-x-4 p-4 bg-green-50 rounded-lg';
+                div.innerHTML = `
+                    <div class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                        ${index + 1}
+                    </div>
+                    <p class="text-gray-800 font-medium">${item}</p>
+                `;
+                content.appendChild(div);
+            });
+        }
+
+        // Countdown Timer
+        function updateCountdown() {
+            const targetDate = new Date();
+            targetDate.setDate(targetDate.getDate() + 7);
+            targetDate.setHours(23, 59, 59, 999);
+
+            const now = new Date().getTime();
+            const distance = targetDate.getTime() - now;
+
+            if (distance > 0) {
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = days.toString().padStart(2, '0');
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            }
+        }
+
+        // Testimonial Carousel
+        const testimonials = [
+            {
+                name: "Rajesh Kumar",
+                investment: "₹4.5 Lakhs in 2014",
+                currentValue: "₹1.2 Cr",
+                quote: "Bought 300 sq.yd for ₹4.5 Lakhs in 2014. Now worth ₹1.2 Cr+. Best investment decision of my life.",
+                roi: "2400% Returns"
+            },
+            {
+                name: "Priya Sharma",
+                investment: "₹8 Lakhs in 2016",
+                currentValue: "₹45 Lakhs",
+                quote: "The location is perfect - surrounded by nature yet well-connected. My plot value has increased 5x in just 8 years.",
+                roi: "500% Returns"
+            },
+            {
+                name: "Vikram Reddy",
+                investment: "₹12 Lakhs in 2018",
+                currentValue: "₹28 Lakhs",
+                quote: "Clean title, legal clarity, and amazing appreciation. Building my villa here next year. Highly recommended!",
+                roi: "233% Returns"
+            }
+        ];
+
+        let currentTestimonial = 0;
+
+        function showTestimonial(index) {
+            const testimonial = testimonials[index];
+            const content = document.getElementById('testimonial-content');
+            
+            content.innerHTML = `
+                <div class="mb-8">
+                    <div class="w-20 h-20 bg-green-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl font-bold text-green-600">${testimonial.name.charAt(0)}</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">${testimonial.name}</h3>
+                    <p class="text-green-600 font-medium">${testimonial.roi}</p>
+                </div>
+                
+                <blockquote class="text-xl text-gray-700 italic mb-8 leading-relaxed">
+                    "${testimonial.quote}"
+                </blockquote>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-red-50 rounded-lg p-4">
+                        <div class="text-sm text-gray-600 mb-1">Initial Investment</div>
+                        <div class="text-2xl font-bold text-red-600">${testimonial.investment}</div>
+                    </div>
+                    <div class="bg-green-50 rounded-lg p-4">
+                        <div class="text-sm text-gray-600 mb-1">Current Value</div>
+                        <div class="text-2xl font-bold text-green-600">${testimonial.currentValue}</div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center space-x-4">
+                    <button onclick="previousTestimonial()" class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-50">
+                        ← Previous
+                    </button>
+                    <div class="flex space-x-2 items-center">
+                        ${testimonials.map((_, i) => `
+                            <div class="w-3 h-3 rounded-full ${i === index ? 'bg-green-600' : 'bg-gray-300'}"></div>
+                        `).join('')}
+                    </div>
+                    <button onclick="nextTestimonial()" class="px-4 py-2 border border-gray-300 rounded hover:bg-gray-50">
+                        Next →
+                    </button>
+                </div>
+            `;
+        }
+
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }
+
+        function previousTestimonial() {
+            currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }
+
+        // Live Activity Feed
+        const activityTemplates = [
+            { icon: "eye", text: "viewed plot details", color: "text-blue-600" },
+            { icon: "phone", text: "contacted via WhatsApp", color: "text-green-600" },
+            { icon: "map-pin", text: "checked location", color: "text-purple-600" },
+            { icon: "users", text: "viewed investment calculator", color: "text-orange-600" }
+        ];
+
+        const names = [
+            "Rajesh", "Priya", "Vikram", "Anita", "Suresh", "Kavya",
+            "Ravi", "Deepika", "Arjun", "Meera", "Kiran", "Sita"
+        ];
+
+        let activities = [];
+        let visitorCount = 147;
+
+        function generateActivity() {
+            const template = activityTemplates[Math.floor(Math.random() * activityTemplates.length)];
+            const name = names[Math.floor(Math.random() * names.length)];
+            const timeAgo = Math.floor(Math.random() * 30) + 1;
+
+            return {
+                id: Date.now() + Math.random(),
+                icon: template.icon,
+                name,
+                action: template.text,
+                timeAgo: `${timeAgo}m ago`,
+                color: template.color
+            };
+        }
+
+        function updateActivityFeed() {
+            const feed = document.getElementById('activity-feed');
+            feed.innerHTML = '';
+
+            activities.slice(0, 5).forEach(activity => {
+                const div = document.createElement('div');
+                div.className = 'flex items-center space-x-3 p-2 bg-gray-50 rounded-lg animate-fade-in';
+                div.innerHTML = `
+                    <div class="flex-shrink-0">
+                        <i data-lucide="${activity.icon}" class="w-4 h-4 ${activity.color}"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-sm text-gray-800 truncate">
+                            <span class="font-medium">${activity.name}</span> ${activity.action}
+                        </p>
+                        <p class="text-xs text-gray-500">${activity.timeAgo}</p>
+                    </div>
+                `;
+                feed.appendChild(div);
+            });
+
+            // Re-initialize Lucide icons for new elements
+            lucide.createIcons();
+        }
+
+        function addNewActivity() {
+            const newActivity = generateActivity();
+            activities.unshift(newActivity);
+            activities = activities.slice(0, 5);
+
+            if (Math.random() > 0.7) {
+                visitorCount += Math.floor(Math.random() * 3) + 1;
+                document.getElementById('visitor-count').textContent = `${visitorCount} viewing`;
+            }
+
+            updateActivityFeed();
+        }
+
+        // Lead Capture Form
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toast-message');
+            
+            toastMessage.textContent = message;
+            toast.style.transform = 'translateX(0)';
+            
+            setTimeout(() => {
+                toast.style.transform = 'translateX(100%)';
+            }, 3000);
+        }
+
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('full-name').value,
+                phone: document.getElementById('phone-number').value,
+                email: document.getElementById('email').value,
+                visitDate: document.getElementById('visit-date').value || 'Not specified'
+            };
+            
+            const message = `New Lead from Vanasthali Hills Website:
+
+Name: ${formData.name}
+Phone: ${formData.phone}
+Email: ${formData.email}
+Preferred Visit Date: ${formData.visitDate}
+Timestamp: ${new Date().toLocaleString()}`;
+
+            const whatsappNumber = "918074915275";
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            window.open(whatsappUrl, '_blank');
+            
+            showToast("Information Sent Successfully! Your details have been sent to our WhatsApp. Our investment advisor will contact you within 2 hours.");
+            
+            document.getElementById('lead-form').reset();
+        });
+
+        // Floating buttons visibility
+        function toggleFloatingButtons() {
+            const buttons = document.getElementById('floating-buttons');
+            if (window.pageYOffset > 300) {
+                buttons.style.display = 'flex';
+            } else {
+                buttons.style.display = 'none';
+            }
+        }
+
+        // Plots counter
+        let plotsLeft = 47;
+        function updatePlotsCounter() {
+            if (plotsLeft > 35) {
+                plotsLeft = Math.max(plotsLeft - 1, 35);
+                document.getElementById('plots-left').textContent = plotsLeft;
+            }
+        }
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize calculator
+            calculateReturns();
+            
+            // Initialize infrastructure with hospitals tab
+            showTab('hospitals');
+            
+            // Initialize countdown
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+            
+            // Initialize testimonials
+            showTestimonial(0);
+            
+            // Initialize activity feed
+            for (let i = 0; i < 5; i++) {
+                activities.push(generateActivity());
+            }
+            updateActivityFeed();
+            
+            // Start periodic updates
+            setInterval(addNewActivity, Math.random() * 7000 + 8000);
+            setInterval(updatePlotsCounter, 30000);
+            
+            // Event listeners
+            document.getElementById('investment-amount').addEventListener('input', calculateReturns);
+            document.getElementById('investment-years').addEventListener('input', calculateReturns);
+            window.addEventListener('scroll', toggleFloatingButtons);
+            
+            // Initialize Lucide icons
+            lucide.createIcons();
+        });
+    </script>
+</body>
 </html>
