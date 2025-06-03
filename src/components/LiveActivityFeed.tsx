@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Eye, Phone, MapPin } from 'lucide-react';
@@ -9,9 +8,9 @@ const LiveActivityFeed = () => {
 
   const activityTemplates = [
     { icon: Eye, text: "viewed plot details", color: "text-blue-600" },
-    { icon: Phone, text: "requested site visit", color: "text-green-600" },
+    { icon: Phone, text: "contacted via WhatsApp", color: "text-green-600" },
     { icon: MapPin, text: "checked location", color: "text-purple-600" },
-    { icon: Users, text: "downloaded brochure", color: "text-orange-600" }
+    { icon: Users, text: "viewed investment calculator", color: "text-orange-600" }
   ];
 
   const names = [
