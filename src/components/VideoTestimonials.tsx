@@ -14,7 +14,6 @@ const VideoTestimonials = () => {
       title: "Software Engineer",
       investment: "₹4.5L → ₹1.2Cr",
       roi: "2400%",
-      thumbnail: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
       quote: "Best investment decision of my life. The returns exceeded all expectations.",
       year: "2014-2024"
@@ -25,7 +24,6 @@ const VideoTestimonials = () => {
       title: "Doctor",
       investment: "₹8L → ₹45L",
       roi: "560%",
-      thumbnail: "https://images.unsplash.com/photo-1494790108755-2616b612b05b?w=150&h=150&fit=crop&crop=face",
       videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
       quote: "The location is perfect and the team is very professional. Highly recommended!",
       year: "2016-2024"
@@ -36,7 +34,6 @@ const VideoTestimonials = () => {
       title: "Business Owner",
       investment: "₹12L → ₹28L",
       roi: "233%",
-      thumbnail: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
       quote: "Clear documentation, legal transparency, and excellent appreciation potential.",
       year: "2018-2024"
@@ -64,14 +61,9 @@ const VideoTestimonials = () => {
           {testimonials.map((testimonial) => (
             <Card key={testimonial.id} className="bg-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
               <CardContent className="p-0">
-                {/* Video Thumbnail */}
-                <div className="relative">
-                  <img
-                    src={testimonial.thumbnail}
-                    alt={testimonial.name}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {/* Video Placeholder */}
+                <div className="relative bg-gray-200 h-48 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 opacity-80 flex items-center justify-center">
                     <Button
                       onClick={() => setActiveVideo(testimonial)}
                       className="bg-white/90 hover:bg-white text-black rounded-full p-4"

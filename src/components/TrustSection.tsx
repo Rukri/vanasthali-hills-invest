@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 
 const TrustSection = () => {
   const trustFeatures = [
@@ -40,7 +39,7 @@ const TrustSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {trustFeatures.map((feature, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
@@ -50,22 +49,6 @@ const TrustSection = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center">
-          <Card className="bg-white shadow-lg max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Download Legal Documents
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Get complete documentation including title deeds, approvals, and project brochure
-              </p>
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full">
-                📄 Download Legal Brochure
-              </Button>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>

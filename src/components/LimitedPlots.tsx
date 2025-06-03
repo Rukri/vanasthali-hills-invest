@@ -43,18 +43,18 @@ const LimitedPlots = () => {
                 <div className="text-sm text-gray-500">Ongoing registrations in progress</div>
               </div>
               
-              <div className="bg-yellow-100 rounded-lg p-4 mb-6">
-                <p className="text-yellow-800 font-medium">
-                  ⚡ Limited Time: EMI Options Available Starting ₹25,000/month
-                </p>
-              </div>
-              
-              <Button 
-                size="lg"
-                className="bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white px-12 py-4 text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+              <a
+                href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                💼 Reserve Your Plot Now
-              </Button>
+                <Button 
+                  size="lg"
+                  className="bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white px-12 py-4 text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+                >
+                  💼 Reserve Your Plot Now
+                </Button>
+              </a>
             </CardContent>
           </Card>
           

@@ -39,19 +39,18 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+          <a
+            href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            📞 Book Free Site Visit
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-white text-white hover:bg-white hover:text-green-800 px-8 py-4 text-lg font-semibold rounded-full backdrop-blur-sm transform hover:scale-105 transition-all duration-300"
-          >
-            💼 Get ROI Brochure
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+            >
+              💬 Contact on WhatsApp
+            </Button>
+          </a>
         </div>
         
         <div className="mt-16 animate-bounce">

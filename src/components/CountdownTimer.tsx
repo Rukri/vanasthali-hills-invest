@@ -71,22 +71,19 @@ const CountdownTimer = () => {
             </div>
 
             <div className="space-y-4">
-              <div className="bg-yellow-400/20 rounded-lg p-4 mb-6">
-                <p className="text-lg font-semibold">
-                  🎯 Special Launch Pricing: Starting ₹25,000/month EMI
-                </p>
-                <p className="text-sm opacity-90">
-                  Regular pricing resumes after countdown expires
-                </p>
-              </div>
-
-              <Button 
-                size="lg" 
-                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-4 text-lg rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+              <a
+                href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Clock className="w-5 h-5 mr-2" />
-                Secure My Plot Now
-              </Button>
+                <Button 
+                  size="lg" 
+                  className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-4 text-lg rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+                >
+                  <Clock className="w-5 h-5 mr-2" />
+                  Contact Now
+                </Button>
+              </a>
             </div>
           </CardContent>
         </Card>
