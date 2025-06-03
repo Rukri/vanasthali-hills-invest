@@ -27,21 +27,48 @@ const LeadCapture = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // Format the message for WhatsApp
+      const message = `New Lead from Vanasthali Hills Website:
+      
+Name: ${formData.name}
+Phone: ${formData.phone}
+Email: ${formData.email}
+Preferred Visit Date: ${formData.visitDate || 'Not specified'}
+Timestamp: ${new Date().toLocaleString()}`;
+
+      // Create WhatsApp URL with pre-filled message
+      const whatsappNumber = "918074915275";
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      
+      // Open WhatsApp in a new tab
+      window.open(whatsappUrl, '_blank');
+      
+      // Show success message
       toast({
-        title: "Thank you for your interest!",
-        description: "Our investment advisor will contact you within 2 hours.",
+        title: "Information Sent Successfully!",
+        description: "Your details have been sent to our WhatsApp. Our investment advisor will contact you within 2 hours.",
       });
       
+      // Reset form
       setFormData({
         name: '',
         phone: '',
         email: '',
         visitDate: ''
       });
+      
+    } catch (error) {
+      console.error('Error sending to WhatsApp:', error);
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or contact us directly on WhatsApp: +91 8074915275",
+        variant: "destructive"
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
@@ -117,11 +144,11 @@ const LeadCapture = () => {
                   disabled={isSubmitting}
                   className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white py-4 text-lg font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
                 >
-                  {isSubmitting ? 'Submitting...' : '📞 Book Site Visit & Get Investment Report'}
+                  {isSubmitting ? 'Sending to WhatsApp...' : '📞 Send Details via WhatsApp'}
                 </Button>
                 
                 <p className="text-sm text-center opacity-90">
-                  By submitting, you agree to receive investment updates via WhatsApp & Email
+                  By submitting, your details will be sent to our WhatsApp: +91 8074915275
                 </p>
               </form>
             </CardContent>
