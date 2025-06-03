@@ -10,6 +10,7 @@ import CountdownTimer from '@/components/CountdownTimer';
 import LimitedPlots from '@/components/LimitedPlots';
 import VideoTestimonials from '@/components/VideoTestimonials';
 import Testimonials from '@/components/Testimonials';
+import LeadCapture from '@/components/LeadCapture';
 import TrustSection from '@/components/TrustSection';
 import FloatingButtons from '@/components/FloatingButtons';
 import LiveActivityFeed from '@/components/LiveActivityFeed';
@@ -27,6 +28,7 @@ const Index = () => {
       <LimitedPlots />
       <VideoTestimonials />
       <Testimonials />
+      <LeadCapture />
       <TrustSection />
       <FloatingButtons />
       <LiveActivityFeed />
