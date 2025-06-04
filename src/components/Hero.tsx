@@ -40,7 +40,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/918074915275?text=Hi, I'm interested in buying/selling plots in Vanasthali Hills"
+            href="https://wa.me/918074915275?text=Hi, I'm interested in buying plots in Vanasthali Hills"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,19 @@ const Hero = () => {
               size="lg" 
               className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
-              💬 Buy or Sell with Us
+              🏡 Buy Premium Plots
+            </Button>
+          </a>
+          <a
+            href="https://wa.me/918074915275?text=Hi, I'm interested in selling my plot in Vanasthali Hills"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+            >
+              💰 Sell Your Plot
             </Button>
           </a>
         </div>
