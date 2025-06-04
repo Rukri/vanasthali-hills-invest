@@ -13,6 +13,7 @@ import Testimonials from '@/components/Testimonials';
 import TrustSection from '@/components/TrustSection';
 import FloatingButtons from '@/components/FloatingButtons';
 import LiveActivityFeed from '@/components/LiveActivityFeed';
+import LeadCapture from '@/components/LeadCapture';
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <VideoTestimonials />
       <Testimonials />
       <TrustSection />
+      <LeadCapture />
       <FloatingButtons />
       <LiveActivityFeed />
     </div>
