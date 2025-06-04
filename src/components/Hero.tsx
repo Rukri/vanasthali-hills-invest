@@ -24,14 +24,14 @@ const Hero = () => {
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Invest Where
+          Your Complete
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-yellow-400">
-            Nature Meets High Returns
+            Land Investment Partner
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-4 opacity-90 max-w-4xl mx-auto">
-          Plots in Vanasthali Hills – Surrounded by Lake, Forest & Hills
+          We Buy & Sell Premium Plots in Vanasthali Hills – Surrounded by Lake, Forest & Hills
         </p>
         
         <p className="text-lg md:text-xl mb-8 font-semibold text-yellow-300">
@@ -40,7 +40,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
+            href="https://wa.me/918074915275?text=Hi, I'm interested in buying/selling plots in Vanasthali Hills"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,7 @@ const Hero = () => {
               size="lg" 
               className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
-              💬 Contact on WhatsApp
+              💬 Buy or Sell with Us
             </Button>
           </a>
         </div>

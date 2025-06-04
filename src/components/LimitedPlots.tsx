@@ -14,11 +14,11 @@ const LimitedPlots = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const features = [
-    "100% legal plots with clear title",
-    "Investor-friendly payment plans",
+  const services = [
+    "Buy premium plots with clear title",
+    "Sell your existing plots quickly", 
     "Custom villa construction support",
-    "Spot registration facility"
+    "Complete legal documentation"
   ];
 
   return (
@@ -26,11 +26,11 @@ const LimitedPlots = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Limited Plots. 
-            <span className="text-yellow-600"> Unlimited Returns.</span>
+            Limited Inventory. 
+            <span className="text-yellow-600"> Complete Solutions.</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Secure your investment today with limited inventory remaining
+            Whether buying or selling, secure your land investment with our expert services
           </p>
         </div>
         
@@ -40,31 +40,45 @@ const LimitedPlots = () => {
               <div className="mb-6">
                 <div className="text-6xl font-bold text-yellow-600 mb-2">{plotsLeft}</div>
                 <div className="text-xl text-gray-700 font-medium">Premium Plots Available</div>
-                <div className="text-sm text-gray-500">Ongoing registrations in progress</div>
+                <div className="text-sm text-gray-500">Active buying & selling transactions</div>
               </div>
               
-              <a
-                href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button 
-                  size="lg"
-                  className="bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white px-12 py-4 text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://wa.me/918074915275?text=Hi, I want to buy a plot in Vanasthali Hills"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  💼 Reserve Your Plot Now
-                </Button>
-              </a>
+                  <Button 
+                    size="lg"
+                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-3 text-lg font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+                  >
+                    🏡 Buy a Plot
+                  </Button>
+                </a>
+                <a
+                  href="https://wa.me/918074915275?text=Hi, I want to sell my plot in Vanasthali Hills"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button 
+                    size="lg"
+                    className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3 text-lg font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300"
+                  >
+                    💰 Sell Your Plot
+                  </Button>
+                </a>
+              </div>
             </CardContent>
           </Card>
           
           <div className="grid md:grid-cols-2 gap-6">
-            {features.map((feature, index) => (
+            {services.map((service, index) => (
               <div key={index} className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-md">
                 <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
                   ✓
                 </div>
-                <p className="text-gray-800 font-medium text-lg">{feature}</p>
+                <p className="text-gray-800 font-medium text-lg">{service}</p>
               </div>
             ))}
           </div>
