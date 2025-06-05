@@ -4,11 +4,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const LimitedPlots = () => {
-  const [plotsLeft, setPlotsLeft] = useState(8);
+  const [plotsLeft, setPlotsLeft] = useState(7); // Changed from 8 to 7 to force update
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setPlotsLeft(prev => Math.max(prev - 1, 3));
+      setPlotsLeft(prev => Math.max(prev - 1, 2)); // Changed minimum to 2
     }, 30000); // Decrease every 30 seconds for demo
     
     return () => clearInterval(interval);
