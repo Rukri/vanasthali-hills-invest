@@ -8,7 +8,7 @@ const LimitedPlots = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setPlotsLeft(prev => Math.max(prev - 1, 5));
+      setPlotsLeft(prev => Math.max(prev - 1, 3));
     }, 30000); // Decrease every 30 seconds for demo
     
     return () => clearInterval(interval);
@@ -26,11 +26,11 @@ const LimitedPlots = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Limited Inventory. 
-            <span className="text-yellow-600"> Complete Solutions.</span>
+            Limited Plots. 
+            <span className="text-yellow-600"> Unlimited Returns.</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether buying or selling, secure your land investment with our expert services
+            Secure your investment today with limited inventory remaining
           </p>
         </div>
         
@@ -40,7 +40,7 @@ const LimitedPlots = () => {
               <div className="mb-6">
                 <div className="text-6xl font-bold text-yellow-600 mb-2">{plotsLeft}</div>
                 <div className="text-xl text-gray-700 font-medium">Premium Plots Available</div>
-                <div className="text-sm text-gray-500">Active buying & selling transactions</div>
+                <div className="text-sm text-gray-500">Ongoing registrations in progress</div>
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
