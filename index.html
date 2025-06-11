@@ -625,7 +625,7 @@
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white shadow-xl border-2 border-yellow-200 mb-8 rounded-lg p-8 text-center">
                     <div class="mb-6">
-                        <div class="text-6xl font-bold text-yellow-600 mb-2" id="plots-left">4</div>
+                        <div class="text-6xl font-bold text-yellow-600 mb-2" id="plots-left">8</div>
                         <div class="text-xl text-gray-700 font-medium">Premium Plots Available</div>
                         <div class="text-sm text-gray-500">Ongoing registrations in progress</div>
                     </div>
@@ -1238,10 +1238,10 @@ Timestamp: ${new Date().toLocaleString()}`;
         }
 
         // Plots counter
-        let plotsLeft = 47;
+        let plotsLeft = 8;
         function updatePlotsCounter() {
-            if (plotsLeft > 35) {
-                plotsLeft = Math.max(plotsLeft - 1, 35);
+            if (plotsLeft > 5) {
+                plotsLeft = Math.max(plotsLeft - 1, 5);
                 document.getElementById('plots-left').textContent = plotsLeft;
             }
         }
