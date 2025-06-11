@@ -17,6 +17,17 @@ import LeadCapture from '@/components/LeadCapture';
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
+      {/* Hide any live activity elements on mobile and tablet */}
+      <style>{`
+        @media (max-width: 1024px) {
+          [class*="live-activity"],
+          [class*="LiveActivity"],
+          .live-activity,
+          .LiveActivity {
+            display: none !important;
+          }
+        }
+      `}</style>
       <Hero />
       <WhyInvest />
       <ROISection />
