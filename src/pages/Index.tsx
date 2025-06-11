@@ -12,7 +12,6 @@ import VideoTestimonials from '@/components/VideoTestimonials';
 import Testimonials from '@/components/Testimonials';
 import TrustSection from '@/components/TrustSection';
 import FloatingButtons from '@/components/FloatingButtons';
-import LiveActivityFeed from '@/components/LiveActivityFeed';
 import LeadCapture from '@/components/LeadCapture';
 
 const Index = () => {
@@ -31,7 +30,6 @@ const Index = () => {
       <TrustSection />
       <LeadCapture />
       <FloatingButtons />
-      <LiveActivityFeed />
     </div>
   );
 };
