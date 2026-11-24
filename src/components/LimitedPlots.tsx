@@ -45,7 +45,7 @@ const LimitedPlots = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/918074915275?text=Hi, I want to buy a plot in Vanasthali Hills"
+                  href="https://wa.me/919701740375?text=Hi, I want to buy a plot in Vanasthali Hills"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -57,7 +57,7 @@ const LimitedPlots = () => {
                   </Button>
                 </a>
                 <a
-                  href="https://wa.me/918074915275?text=Hi, I want to sell my plot in Vanasthali Hills"
+                  href="https://wa.me/919701740375?text=Hi, I want to sell my plot in Vanasthali Hills"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

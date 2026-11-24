@@ -40,7 +40,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/918074915275?text=Hi, I'm interested in buying plots in Vanasthali Hills"
+            href="https://wa.me/919701740375?text=Hi, I'm interested in buying plots in Vanasthali Hills"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ const Hero = () => {
             </Button>
           </a>
           <a
-            href="https://wa.me/918074915275?text=Hi, I'm interested in selling my plot in Vanasthali Hills"
+            href="https://wa.me/919701740375?text=Hi, I'm interested in selling my plot in Vanasthali Hills"
             target="_blank"
             rel="noopener noreferrer"
           >

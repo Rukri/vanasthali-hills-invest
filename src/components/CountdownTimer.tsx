@@ -72,7 +72,7 @@ const CountdownTimer = () => {
 
             <div className="space-y-4">
               <a
-                href="https://wa.me/918074915275?text=Hi, I'm interested in Vanasthali Hills plots"
+                href="https://wa.me/919701740375?text=Hi, I'm interested in Vanasthali Hills plots"
                 target="_blank"
                 rel="noopener noreferrer"
               >

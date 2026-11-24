@@ -38,7 +38,7 @@ Preferred Visit Date: ${formData.visitDate || 'Not specified'}
 Timestamp: ${new Date().toLocaleString()}`;
 
       // Create WhatsApp URL with pre-filled message
-      const whatsappNumber = "918074915275";
+      const whatsappNumber = "919701740375";
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
       
@@ -63,7 +63,7 @@ Timestamp: ${new Date().toLocaleString()}`;
       console.error('Error sending to WhatsApp:', error);
       toast({
         title: "Something went wrong",
-        description: "Please try again or contact us directly on WhatsApp: +91 8074915275",
+        description: "Please try again or contact us directly on WhatsApp: +91 97017 40375",
         variant: "destructive"
       });
     } finally {
@@ -148,7 +148,7 @@ Timestamp: ${new Date().toLocaleString()}`;
                 </Button>
                 
                 <p className="text-sm text-center opacity-90">
-                  By submitting, your details will be sent to our WhatsApp: +91 8074915275
+                  By submitting, your details will be sent to our WhatsApp: +91 97017 40375
                 </p>
               </form>
             </CardContent>
